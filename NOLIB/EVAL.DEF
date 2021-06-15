@@ -1,0 +1,5 @@
+NAME         Eval  WINDOWCOMPAT
+DESCRIPTION  'Description Field'  
+HEAPSIZE     10240
+STACKSIZE    10240                
+EXETYPE      OS2            

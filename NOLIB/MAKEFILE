@@ -1,0 +1,11 @@
+all : Eval.exe
+ 
+.c.obj:
+   cl /W3 /c /AL /Od /Zi /nologo $*.c
+
+Eval.exe : Eval.obj
+  link Eval ,,NUL,os2 llibcep/NOD/NOE/CO,$*.def
+  bind eval.exe
+
+
+ 

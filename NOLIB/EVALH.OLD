@@ -1,0 +1,7 @@
+typedef long   double BIG;
+typedef PSZ    *PPSZ;
+
+typedef BIG    (*PMTHFN) (BIG big);
+
+BIG _Eval (PPSZ ppszExp, USHORT uLevel);
+

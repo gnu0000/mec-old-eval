@@ -1,0 +1,5 @@
+NAME         DATAOBJ WINDOWCOMPAT NEWFILES
+DESCRIPTION  'Data File to Object file creation utility'
+HEAPSIZE     2048
+STACKSIZE    0xD000
+EXETYPE      OS2
